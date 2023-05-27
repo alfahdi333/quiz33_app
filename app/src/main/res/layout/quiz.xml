@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/img_7" />
+
+    <LinearLayout
+
+        android:id="@+id/choices1_layout"
+        android:layout_width="273dp"
+        android:layout_height="550dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        />
+
+        <Button
+
+            android:id="@+id/ch1_bt"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:textColor="@color/black"
+
+            android:text="Start"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/ch2_bt"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@color/white"
+            android:text="Start"
+
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/ch3_bt"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@color/white"
+            android:text="Start"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

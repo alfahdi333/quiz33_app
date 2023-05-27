@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/img_8" />
+
+    <LinearLayout
+
+        android:id="@+id/welcome_layout"
+        android:layout_width="365dp"
+        android:layout_height="386dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:text="Welcome to our quiz app we will help you to assess  your knowledge "
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <Button
+
+            android:id="@+id/start_bt"
+            android:layout_width="296dp"
+            android:layout_height="68dp"
+            android:layout_margin="25dp"
+            android:background="@color/bll"
+            android:text="Start"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
